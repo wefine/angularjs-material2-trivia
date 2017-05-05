@@ -1,28 +1,8 @@
-# AngularjsMaterial2Trivia
+# Angular Material2 Trivia
+学习与练习[real-world-angular](https://blog.realworldfullstack.io/real-world-angular-part-x-fantastic-4-c714b04640ab)关于使用MD开发的系列文章。
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+## Get start
+起步，使用Angular CLI创建工程，添加基本依赖与配置，并根据实际经验增加了Material Icon和roboto字体。[[参考英文原文](https://blog.realworldfullstack.io/real-world-angular-part-0-from-zero-to-cli-ng-a2ff646b90cc)]
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Part 01
+加入基本数据模块与服务，从JSON数据源中获取数据并展示。[[参考英文原文](https://blog.realworldfullstack.io/real-world-angular-part-1-not-another-todo-list-c2ea5020f944)]
