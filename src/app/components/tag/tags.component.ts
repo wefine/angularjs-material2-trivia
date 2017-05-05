@@ -1,8 +1,8 @@
-import { Component, OnDestroy, OnInit } from "@angular/core";
+import { Component, OnDestroy, OnInit } from '@angular/core';
 
-import { TagService } from "../../services";
+import { TagService } from '../../services';
 @Component({
-    selector: 'tag-list',
+    selector: 'zx-tag',
     templateUrl: './tags.component.html',
     styleUrls: ['./tags.component.scss']
 })
@@ -19,7 +19,7 @@ export class TagsComponent implements OnInit, OnDestroy {
     }
 
     ngOnDestroy() {
-        if (this.sub){
+        if (this.sub) {
             this.sub.unsubscribe();
         }
     }

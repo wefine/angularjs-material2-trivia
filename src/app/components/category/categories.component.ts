@@ -1,14 +1,14 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnDestroy, OnInit } from '@angular/core';
 
-import { Category } from "../../model";
-import { CategoryService } from "../../services";
+import { Category } from '../../model';
+import { CategoryService } from '../../services';
 
 @Component({
-    selector: 'category-list',
+    selector: 'zx-category',
     templateUrl: './categories.component.html',
     styleUrls: ['./categories.component.scss']
 })
-export class CategoriesComponent implements OnInit {
+export class CategoriesComponent implements OnInit, OnDestroy {
     categories: Category[];
     sub: any;
 
@@ -21,8 +21,9 @@ export class CategoriesComponent implements OnInit {
     }
 
     ngOnDestroy() {
-        if (this.sub)
+        if (this.sub) {
             this.sub.unsubscribe();
+        }
     }
 
 }

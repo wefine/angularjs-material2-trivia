@@ -1,9 +1,9 @@
-import { Injectable } from "@angular/core";
-import { Http } from "@angular/http";
-import { Observable } from "rxjs/Observable";
-import "../rxjs-extensions";
+import { Injectable } from '@angular/core';
+import { Http } from '@angular/http';
+import { Observable } from 'rxjs/Observable';
+import '../rxjs-extensions';
 
-import { Question } from "../model/question";
+import { Question } from '../model/question';
 
 @Injectable()
 export class QuestionService {
@@ -13,7 +13,7 @@ export class QuestionService {
     }
 
     getQuestions(): Observable<Question[]> {
-        let url = this._serviceUrl;
+        const url = this._serviceUrl;
         return this.http.get(url)
             .map(res => res.json());
     }

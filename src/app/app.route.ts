@@ -1,5 +1,5 @@
-import { Routes } from "@angular/router";
-import { CategoriesComponent, QuestionsComponent, TagsComponent } from "./components/index";
+import { Routes } from '@angular/router';
+import { CategoriesComponent, QuestionsComponent, TagsComponent } from './components/index';
 
 export const routes: Routes = [
     {

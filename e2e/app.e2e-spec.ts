@@ -1,4 +1,4 @@
-import { AngularjsMaterial2TriviaPage } from "./app.po";
+import { AngularjsMaterial2TriviaPage } from './app.po';
 
 describe('angularjs-material2-trivia App', () => {
     let page: AngularjsMaterial2TriviaPage;
