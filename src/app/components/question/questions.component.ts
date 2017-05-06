@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 
-import { Category, Question } from '../../model';
+import { Question } from '../../model';
 import { QuestionService } from '../../services';
 
 @Component({
@@ -10,18 +10,12 @@ import { QuestionService } from '../../services';
 })
 export class QuestionsComponent implements OnInit, OnDestroy {
     questions: Question[];
-    categories: Category[];
     sub: any;
 
-    constructor(
-        private questionService: QuestionService,
-        private categoryService: QuestionService) {
+    constructor(private questionService: QuestionService) {
     }
 
     ngOnInit() {
-        this.sub = this.questionService.getQuestions()
-            .subscribe(questions => this.questions = questions);
-
         this.sub = this.questionService.getQuestions()
             .subscribe(questions => this.questions = questions);
     }

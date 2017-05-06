@@ -7,10 +7,8 @@ export class Question {
     ordered: boolean;
     explanation?: string;
     tags: string[];
-    // 分类的ID及其名称
     categories: Category[];
     categoryIds: number[];
-
     published: boolean;
     status: QuestionStatus;
     createdBy?: string;
@@ -26,12 +24,13 @@ export class Question {
         this.ordered = false;
         this.tags = [];
         this.categories = [];
+        this.categoryIds = [];
         this.published = false;
         this.status = QuestionStatus.SAVED;
     }
 }
 
-class Answer {
+export class Answer {
     id: number;
     answerText: string;
     correct: boolean;
