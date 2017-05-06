@@ -7,7 +7,10 @@ export class Question {
     ordered: boolean;
     explanation?: string;
     tags: string[];
+    // 分类的ID及其名称
     categories: Category[];
+    categoryIds: number[];
+
     published: boolean;
     status: QuestionStatus;
     createdBy?: string;

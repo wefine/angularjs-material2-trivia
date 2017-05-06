@@ -200,12 +200,12 @@
             ],
             "ordered": false,
             "tags": [
-                "JavaScript"
+                "JavaScript",
+                "front-end",
+                "ES5"
             ],
-            "categories": [
-                {
-                    "id": 2
-                }
+            "categoryIds": [
+                2
             ]
         },
         {
@@ -235,12 +235,11 @@
             ],
             "ordered": false,
             "tags": [
-                "JavaScript"
+                "JavaScript",
+                "front-end"
             ],
-            "categories": [
-                {
-                    "id": 2
-                }
+            "categoryIds": [
+                2
             ]
         },
         {
@@ -272,10 +271,8 @@
             "tags": [
                 "JavaScript"
             ],
-            "categories": [
-                {
-                    "id": 2
-                }
+            "categoryIds": [
+                2
             ]
         },
         {
@@ -307,10 +304,8 @@
             "tags": [
                 "JavaScript"
             ],
-            "categories": [
-                {
-                    "id": 2
-                }
+            "categoryIds": [
+                2
             ]
         },
         {
@@ -340,12 +335,11 @@
             ],
             "ordered": true,
             "tags": [
-                "JavaScript"
+                "JavaScript",
+                "ES5"
             ],
-            "categories": [
-                {
-                    "id": 2
-                }
+            "categoryIds": [
+                2
             ]
         },
         {
@@ -374,11 +368,11 @@
                 }
             ],
             "ordered": false,
-            "tags": [],
-            "categories": [
-                {
-                    "id": 1
-                }
+            "tags": [
+                "gaming"
+            ],
+            "categoryIds": [
+                1
             ]
         }
     ]
