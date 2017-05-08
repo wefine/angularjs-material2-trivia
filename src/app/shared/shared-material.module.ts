@@ -26,11 +26,13 @@ import 'hammerjs';
         MdIconModule, MdChipsModule,
         MdDialogModule, MdSnackBarModule
     ],
-    exports: [MdInputModule, MdButtonModule, MdCheckboxModule, MdSelectModule,
+    exports: [
+        MdInputModule, MdButtonModule, MdCheckboxModule, MdSelectModule,
         MdCardModule, MdListModule, MdTabsModule,
         MdMenuModule, MdSidenavModule, MdToolbarModule,
         MdIconModule, MdChipsModule,
-        MdDialogModule, MdSnackBarModule]
+        MdDialogModule, MdSnackBarModule
+    ]
 })
 export class SharedMaterialModule {
 }
